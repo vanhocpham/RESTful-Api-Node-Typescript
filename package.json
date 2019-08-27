@@ -1,0 +1,25 @@
+{
+  "name": "rest-api-node-typescript",
+  "version": "1.0.0",
+  "description": "rest api, nodejs, typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoc-anms/Rest-Api-Node-Typescript.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "restful",
+    "api"
+  ],
+  "author": "hoc-anms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoc-anms/Rest-Api-Node-Typescript/issues"
+  },
+  "homepage": "https://github.com/hoc-anms/Rest-Api-Node-Typescript#readme"
+}
