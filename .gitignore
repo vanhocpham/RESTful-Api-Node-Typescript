@@ -86,4 +86,5 @@ typings/
 
 # File .idea/ of IDE code
 .idea/
-
+.vscode/
+**/package-lock.json
