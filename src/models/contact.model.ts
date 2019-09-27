@@ -17,7 +17,7 @@ const Schema = mongoose.Schema,
       type: String
     },
     phone: {
-      type: Number
+      type: String
     },
     createdAt: {
       type: Date,
@@ -36,4 +36,4 @@ ContactSchema.pre("save", function(next) {
 
 const Contact = mongoose.model( "Contact", ContactSchema );
 
-module.exports = Contact;
+export default Contact;
