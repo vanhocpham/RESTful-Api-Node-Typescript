@@ -55,4 +55,8 @@ app.listen(process.env.PORT_BASE, () => {
   console.log("Express server listening on port " + process.env.PORT_BASE);
 });
 
+app.use( "/", ( req, res ) => {
+  res.send( "API Running!" );
+} );
+
 export default app;
